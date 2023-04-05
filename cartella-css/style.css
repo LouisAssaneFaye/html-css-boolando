@@ -6,16 +6,17 @@
 }
 
 header{
-    height: 70px;
+    height: 50px;
     background-color: rgba(255, 115, 15, 0.887);
     color: white;
-    margin-bottom: 70px ;
+    margin-bottom: 50px ;
 }
 
 nav{
-    height: 70px;
-    width: 80%;
+    height: 50px;
+    width: 50%;
     margin: 0 auto;
+    font-size: 15px;
 }
 
 .clearfix::after {
@@ -25,7 +26,7 @@ nav{
 }
 
 nav div{
-    height: 70px;
+    height: 50px;
     width: calc(100% / 3);
     float: left;
 }
@@ -34,14 +35,14 @@ ul.flexstart{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    line-height: 70px;
+    line-height: 50px;
 }
 
 ul.flexend{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    line-height: 70px;
+    line-height: 50px;
 }
 
 ul {
@@ -56,29 +57,29 @@ nav.clearfix img{
     height: 25px;
     width: 100px;
     margin-left: 150px;
-    margin-top: 22px;
+    margin-top: 12px;
 }
 
 .row-top,.row-down{
-    width: 80%;
+    width: 50%;
     border: 2px solid black;
-    height: 400px;
-    margin-top: 70px;
+    height: 415px;
+    margin-top: 40px;
     margin: 0 auto;
 }
 
 .column{
-    height:400px;
-    width: 32.5%;
+    height: 415px;
+    width: 32.9%;
 }
 
 .immagine{
-    height: 320px;
+    height: 340px;
     border: 2px solid black;
 }
 
 .descrizione{
-    height: 80px;
+    height: 75px;
     border: 2px solid black;
 }
 
@@ -88,10 +89,60 @@ nav.clearfix img{
 }
 
 footer{
-    height: 70px;
+    height: 50px;
     background-color: black;
 }
 
 footer div{
     border: 2px solid white;
+}
+
+#immagine1{
+    background-image: url('file:///Users/louisassanefaye/Desktop/Boolean/Corso%20Web%20Developer/Lezione%2010/html-css-boolando/boolando-img/img/1.webp');
+    background-size: cover;
+}
+
+#immagine2{
+    background-image: url('file:///Users/louisassanefaye/Desktop/Boolean/Corso%20Web%20Developer/Lezione%2010/html-css-boolando/boolando-img/img/2.webp') ;
+    background-size: cover;
+}
+
+#immagine3{
+    background-image: url('file:///Users/louisassanefaye/Desktop/Boolean/Corso%20Web%20Developer/Lezione%2010/html-css-boolando/boolando-img/img/3.webp') ;
+    background-size: cover;
+}
+
+#immagine4{
+    background-image: url('file:///Users/louisassanefaye/Desktop/Boolean/Corso%20Web%20Developer/Lezione%2010/html-css-boolando/boolando-img/img/4.webp');
+    background-size: cover;
+}
+
+#immagine5{
+    background-image: url('file:///Users/louisassanefaye/Desktop/Boolean/Corso%20Web%20Developer/Lezione%2010/html-css-boolando/boolando-img/img/5.webp') ;
+    background-size: cover;
+}
+
+#immagine6{
+    background-image: url('file:///Users/louisassanefaye/Desktop/Boolean/Corso%20Web%20Developer/Lezione%2010/html-css-boolando/boolando-img/img/6.webp');
+    background-size: cover;
+}
+
+div.descrizione span{
+    font-size: 13px;
+}
+
+div.descrizione h1{
+    font-size: 13px ;
+}
+
+span.scontato{
+    text-decoration: line-through;
+}
+
+span.grigio{
+    color: rgb(112, 112, 112);
+}
+
+span.rosso{
+    color: red;
 }
