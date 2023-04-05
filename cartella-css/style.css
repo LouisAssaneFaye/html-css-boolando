@@ -9,6 +9,7 @@ header{
     height: 70px;
     background-color: rgba(255, 115, 15, 0.887);
     color: white;
+    margin-bottom: 70px ;
 }
 
 nav{
@@ -58,5 +59,39 @@ nav.clearfix img{
     margin-top: 22px;
 }
 
+.row-top,.row-down{
+    width: 80%;
+    border: 2px solid black;
+    height: 400px;
+    margin-top: 70px;
+    margin: 0 auto;
+}
 
-    
+.column{
+    height:400px;
+    width: 32.5%;
+}
+
+.immagine{
+    height: 320px;
+    border: 2px solid black;
+}
+
+.descrizione{
+    height: 80px;
+    border: 2px solid black;
+}
+
+.row-top.flex,.row-down.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    height: 70px;
+    background-color: black;
+}
+
+footer div{
+    border: 2px solid white;
+}
