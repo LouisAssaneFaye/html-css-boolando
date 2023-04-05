@@ -62,7 +62,6 @@ nav.clearfix img{
 
 .row-top,.row-down{
     width: 50%;
-    border: 2px solid black;
     height: 415px;
     margin-top: 40px;
     margin: 0 auto;
@@ -75,12 +74,11 @@ nav.clearfix img{
 
 .immagine{
     height: 340px;
-    border: 2px solid black;
+    position: relative;
 }
 
 .descrizione{
     height: 75px;
-    border: 2px solid black;
 }
 
 .row-top.flex,.row-down.flex{
@@ -135,7 +133,7 @@ div.descrizione h1{
     font-size: 13px ;
 }
 
-span.scontato{
+span.prezzo_di_partenza{
     text-decoration: line-through;
 }
 
@@ -145,4 +143,47 @@ span.grigio{
 
 span.rosso{
     color: red;
+}
+
+div.sconto{
+    text-align: center;
+    width: 30px;
+    height: 15px;
+    line-height: 15px;
+    color: white;
+    font-size: 10px;
+    background-color: red;
+    position: absolute;
+    top: 300px;
+}
+
+div.sostenibilità{
+    text-align: center;
+    width: 65px;
+    height: 15px;
+    line-height: 15px;
+    color: white;
+    font-size: 10px;
+    background-color: green;
+    position: absolute;
+    left: 33px;
+    top: 300px;
+}
+
+#sostenibilità6{
+    position: absolute;
+    left: 0;
+}
+
+.row-down{
+    margin-bottom: 55px;
+}
+
+div.heart_icon{
+    position: absolute;
+    background-color: white;
+    color: black;
+    right: 0;
+    top: 5px;
+    padding: 6px;
 }
