@@ -87,12 +87,9 @@ nav.clearfix img{
 }
 
 footer{
-    height: 50px;
+    height: 66px;
     background-color: black;
-}
-
-footer div{
-    border: 2px solid white;
+    color: white;
 }
 
 #immagine1{
@@ -186,4 +183,53 @@ div.heart_icon{
     right: 0;
     top: 5px;
     padding: 6px;
+}
+
+div.immagine img{
+    height: 340px;
+    width: 100%;
+    display: none;
+}
+
+div.immagine:hover img{
+    display:inline;
+}
+
+div.heart_icon:hover{
+    color: red;
+}
+
+footer h2{
+    font-size: 11px;
+    margin-bottom: 5px;
+    margin-top: 14px;
+}
+
+footer li{
+    font-size: 8px;
+}
+
+li{
+    margin-right: 3px;
+}
+
+ul.flexstart2{
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center;
+}
+
+ul.flexend2{
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+}
+
+hr{
+    color: white;
+    margin-top: 7px;
+}
+
+#margin-right-zero{
+    padding-left: 150px;
 }
